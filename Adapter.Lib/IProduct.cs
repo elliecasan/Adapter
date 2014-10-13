@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Adapter.Lib
 {
-    public class Class1
+    public interface IProduct
     {
     }
 }
