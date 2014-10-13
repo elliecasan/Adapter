@@ -8,8 +8,14 @@ namespace Adapter.Lib
 {
     public class Product: IProduct
     {
-        public decimal UnitPrice { get; set; }
-        public string BarCode { get; set; }
-        public string Title { get; set; }
+       
+        public decimal UnitPrice 
+        { get { return 2233; }}
+        public string BarCode 
+        { get { return "####"; }  }
+        public string Title 
+        { get { return "Product"; } }
+
+      
     }
 }

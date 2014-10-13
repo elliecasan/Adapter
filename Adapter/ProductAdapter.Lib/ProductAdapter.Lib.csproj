@@ -39,9 +39,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SomeExtrernalVendorProsuctAdapter.cs" />
+    <Compile Include="SomeExtrernalVendorProductAdapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SomeExternalVendorProduct.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Adapter.Lib\Product.Lib.csproj">
+      <Project>{6683B328-A703-46FE-996C-A6B9BE08A8A5}</Project>
+      <Name>Product.Lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AdapterClient.csproj">
+      <Project>{c7a4b762-2b3c-4234-a0e6-77ba52ee73c0}</Project>
+      <Name>AdapterClient</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

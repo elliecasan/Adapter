@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 namespace ProductAdapter.Lib
 {
     public class SomeExternalVendorProduct
+     
     {
-        public int PricePerUnit { get; set; }
-        public string EANCode { get; set; }
-
-        public string Description { get; set; }
+        public int PricePerUnit { get { return 12; } }
+        public string EANCode { get { return "EANCode"; } }
+        public string Description { get { return "Description"; } }
     }
 }
