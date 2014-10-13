@@ -58,6 +58,10 @@
       <Project>{6683b328-a703-46fe-996c-a6b9be08a8a5}</Project>
       <Name>Product.Lib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ProductAdapter.Lib\ProductAdapter.Lib.csproj">
+      <Project>{0cbc65f8-de96-4244-9a34-2828a1fea963}</Project>
+      <Name>ProductAdapter.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

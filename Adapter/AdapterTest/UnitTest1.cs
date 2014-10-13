@@ -1,6 +1,7 @@
 ﻿using System;
 using Adapter.Lib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ProductAdapter.Lib;
 
 namespace AdapterTest
 {
@@ -28,6 +29,15 @@ namespace AdapterTest
         [TestMethod]
         public void Test_SomeExternalVendorProduct()
         {
+            //Arrange
+            string expectedDescription = "Description";
+
+            //Act
+            SomeExternalVendorProduct someProduct = new SomeExternalVendorProduct();
+            
+            //Assert
+
+            Assert.AreEqual(expectedDescription,someProduct.Description);
         }
     }
 }
