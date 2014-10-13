@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter.csproj", "{C7A4B762-2B3C-4234-A0E6-77BA52EE73C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterClient", "AdapterClient.csproj", "{C7A4B762-2B3C-4234-A0E6-77BA52EE73C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Lib", "..\Adapter.Lib\Adapter.Lib.csproj", "{6683B328-A703-46FE-996C-A6B9BE08A8A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Lib", "..\Adapter.Lib\Product.Lib.csproj", "{6683B328-A703-46FE-996C-A6B9BE08A8A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterTest", "AdapterTest\AdapterTest.csproj", "{7D2A7CAC-CE8B-4EEE-B6C5-8FFC85E00700}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductTest", "AdapterTest\ProductTest.csproj", "{7D2A7CAC-CE8B-4EEE-B6C5-8FFC85E00700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAdapter.Lib", "ProductAdapter.Lib\ProductAdapter.Lib.csproj", "{0CBC65F8-DE96-4244-9A34-2828A1FEA963}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7D2A7CAC-CE8B-4EEE-B6C5-8FFC85E00700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D2A7CAC-CE8B-4EEE-B6C5-8FFC85E00700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D2A7CAC-CE8B-4EEE-B6C5-8FFC85E00700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBC65F8-DE96-4244-9A34-2828A1FEA963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBC65F8-DE96-4244-9A34-2828A1FEA963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBC65F8-DE96-4244-9A34-2828A1FEA963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBC65F8-DE96-4244-9A34-2828A1FEA963}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
