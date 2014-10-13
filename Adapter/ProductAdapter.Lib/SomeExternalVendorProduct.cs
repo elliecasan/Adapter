@@ -9,7 +9,7 @@ namespace ProductAdapter.Lib
     public class SomeExternalVendorProduct
      
     {
-        public int PricePerUnit { get { return 12; } }
+        public int PricePerUnit { get { return 2233; } }
         public string EANCode { get { return "EANCode"; } }
         public string Description { get { return "Description"; } }
     }

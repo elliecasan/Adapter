@@ -31,13 +31,18 @@ namespace AdapterTest
         {
             //Arrange
             string expectedDescription = "Description";
+            string expectedEANCode = "EANCode";
+            int expectedPricePerUnit = 2233;
+            var someProduct= new SomeExternalVendorProduct();
 
             //Act
-            SomeExternalVendorProduct someProduct = new SomeExternalVendorProduct();
             
+            SomeExtrernalVendorProductAdapter adapter= new SomeExtrernalVendorProductAdapter(someProduct);
             //Assert
 
-            Assert.AreEqual(expectedDescription,someProduct.Description);
+            Assert.AreEqual(expectedDescription,adapter.Title);
+            Assert.AreEqual(expectedEANCode, adapter.BarCode);
+            Assert.AreEqual(expectedPricePerUnit, adapter.UnitPrice);
         }
     }
 }
